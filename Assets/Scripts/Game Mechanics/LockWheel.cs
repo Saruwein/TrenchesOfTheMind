@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class LockWheel : MonoBehaviour
 {
+    public Button tryLock;
     public Button top;
     public Button bot;
 

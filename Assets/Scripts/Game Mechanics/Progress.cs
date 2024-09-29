@@ -45,27 +45,52 @@ public class Progress : MonoBehaviour
     }
 
     /// <summary>
+    /// End Game // return to Title Screen
+    /// </summary>
+    public void End(VideoPlayer vp) { SceneHandler.ReturnTitle(); }
+
+    /// <summary>
+    /// test lock combination --> end game
+    /// </summary>
+    /// <param name="Lock"></param>
+    public void TryLock(Lock Lock)
+    {
+        if (!Lock.isLocked())
+        {
+            cutScenes.
+            cutSceneProgress = _cutSceneMP4s.Count - 1;
+            PlayCut();
+
+            cutScenes.loopPointReached += End;
+        }
+    }
+
+
+    /// <summary>
     /// navigate left
     /// </summary>
     public void ScreenLeft()
     {
         // change view
         if (view > 0) { view--; }
-        else { view = 3; }
-        // determine visible view
+        else { view = 3; }    
+        // determine visible view    
         for (int i = 0; i < 4; i++)
         {
             _views[i].SetActive(i == view);
-        }
+        }    
 
         // check for video condition 
-        // {does it have cutscenes, are prereqs met, and has it been played?}
-        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];
+        // {does it have cutscenes, are prereqs met, and has it been played?}        
+        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];    
         if ((sp.name.StartsWith('1') || sp.name.StartsWith('3')) && sp.CheckPrereqs() && !sp.isPassed)
         {
             PlayCut();
+            // cutScenes.loopPointReached += SceneHandler.ReturnTitle;
+                 
         }
     }
+
     /// <summary>
     /// navigate right
     /// </summary>
@@ -78,6 +103,14 @@ public class Progress : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
             _views[i].SetActive(i == view);
+        }
+
+        // check for video condition 
+        // {does it have cutscenes, are prereqs met, and has it been played?}
+        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];
+        if ((sp.name.StartsWith('1') || sp.name.StartsWith('3')) && sp.CheckPrereqs() && !sp.isPassed)
+        {
+            PlayCut();
         }
     }
 
