@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\lockwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lockwheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\game mechanics\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game mechanics\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\scripts\\storypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\storypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\game mechanics\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game mechanics\\lock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\scripts\\audioshenanigans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audioshenanigans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\game mechanics\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game mechanics\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\viewspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\viewspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|c:\\users\\francois\\unityworkspace\\sharpenedlives\\sl\\assets\\scripts\\game mechanics\\storypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game mechanics\\storypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\scripts\\scenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\scripts\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\assets\\scripts\\jigsawfragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jigsawfragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,83 +55,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LockWheel.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\LockWheel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LockWheel.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\LockWheel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LockWheel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:46:41.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoryPoint.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\StoryPoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StoryPoint.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\StoryPoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StoryPoint.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T00:38:17.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AudioShenanigans.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\AudioShenanigans.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioShenanigans.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\AudioShenanigans.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioShenanigans.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T08:20:00.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JigSawFragment.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\JigSawFragment.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\JigSawFragment.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\JigSawFragment.cs",
-              "RelativeToolTip": "Assets\\Scripts\\JigSawFragment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T07:47:43.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewSpace.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\ViewSpace.cs",
-              "RelativeDocumentMoniker": "Assets\\ViewSpace.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\ViewSpace.cs",
-              "RelativeToolTip": "Assets\\ViewSpace.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T01:19:04.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Collection.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Collection.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Collection.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Collection.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Collection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T23:56:17.126Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
@@ -153,7 +64,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "StoryPoint.cs",
+              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\StoryPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game Mechanics\\StoryPoint.cs",
+              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\StoryPoint.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game Mechanics\\StoryPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:55:09.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lock.cs",
+              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\Lock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game Mechanics\\Lock.cs",
+              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\Lock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game Mechanics\\Lock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:55:22.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "View.cs",
+              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\View.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game Mechanics\\View.cs",
+              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\View.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game Mechanics\\View.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:55:21.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Progress.cs",
+              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\Progress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game Mechanics\\Progress.cs",
+              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Game Mechanics\\Progress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game Mechanics\\Progress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:55:06.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SceneHandler.cs",
               "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\SceneHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneHandler.cs",
@@ -164,17 +133,8 @@
               "WhenOpened": "2024-09-28T23:23:28.961Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Progress.cs",
-              "DocumentMoniker": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Progress.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Progress.cs",
-              "ToolTip": "C:\\Users\\francois\\UnityWorkspace\\SharpenedLives\\SL\\Assets\\Scripts\\Progress.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Progress.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwEoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T00:19:02.762Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

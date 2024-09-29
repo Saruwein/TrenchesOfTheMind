@@ -9,8 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{84DFB1E7-CB13-C98F-9D0D-33E3F4F783B0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,7 +61,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.21f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Behaviour.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\Axis.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\Lock.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\View.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\LockWheel.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\StoryPoint.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\NavManager.cs" />
+    <Compile Include="Assets\Scripts\Swap ImgTextures.cs" />
+    <Compile Include="Assets\Scripts\Collection.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\JigSawFragment.cs" />
+    <Compile Include="Assets\Scripts\Game Mechanics\Progress.cs" />
+    <Compile Include="Assets\Scripts\AudioShenanigans.cs" />
+    <Compile Include="Assets\Scripts\SceneHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

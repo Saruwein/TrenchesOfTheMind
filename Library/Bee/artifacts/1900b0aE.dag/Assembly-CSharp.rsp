@@ -437,7 +437,18 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/Behaviour.cs"
+"Assets/Scripts/AudioShenanigans.cs"
+"Assets/Scripts/Collection.cs"
+"Assets/Scripts/Game Mechanics/Axis.cs"
+"Assets/Scripts/Game Mechanics/JigSawFragment.cs"
+"Assets/Scripts/Game Mechanics/Lock.cs"
+"Assets/Scripts/Game Mechanics/LockWheel.cs"
+"Assets/Scripts/Game Mechanics/NavManager.cs"
+"Assets/Scripts/Game Mechanics/Progress.cs"
+"Assets/Scripts/Game Mechanics/StoryPoint.cs"
+"Assets/Scripts/Game Mechanics/View.cs"
+"Assets/Scripts/SceneHandler.cs"
+"Assets/Scripts/Swap ImgTextures.cs"
 -langversion:9.0
 /deterministic
 /optimize+
