@@ -37,6 +37,7 @@ Shader "Custom/VignetteShader"
             float2 _Center; // Center of vignette effect
             float _MinRadius; // Minimum radius for vignette
             float _MaxRadius; // Maximum radius for vignette
+            float2 _ScreenResolution; // To hold screen dimensions in pixels
 
             v2f vert (appdata_t v)
             {
@@ -51,8 +52,12 @@ Shader "Custom/VignetteShader"
                 float2 uv = i.uv;
                 float2 center = _Center;
 
-                // Calculate the distance from the current pixel to the center
-                float dist = distance(uv, center);
+                // Convert UV coordinates to pixel space using the screen resolution
+                float2 pixelCenter = center * _ScreenResolution; // Scale the center by screen resolution
+                float2 pixelUV = uv * _ScreenResolution; // Scale the UV to pixel coordinates
+
+                // Calculate the distance from the current pixel to the center in pixels
+                float dist = distance(pixelUV, pixelCenter);
 
                 // Calculate the alpha based on distance
                 float alpha = smoothstep(_MinRadius, _MaxRadius, dist);
@@ -61,7 +66,7 @@ Shader "Custom/VignetteShader"
                 fixed4 vignette = lerp(fixed4(0, 0, 0, 0), _VignetteColor, alpha);
 
                 return vignette;
-            }
+}
             ENDCG
         }
     }
