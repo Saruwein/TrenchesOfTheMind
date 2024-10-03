@@ -53,3 +53,7 @@ Thumbs.db
 
 # Packages
 Packages/manifest.json
+Packages/
+
+#User Settings
+UserSettings/
