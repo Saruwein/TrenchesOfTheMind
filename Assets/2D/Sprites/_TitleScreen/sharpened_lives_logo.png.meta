@@ -1,0 +1,1469 @@
+fileFormatVersion: 2
+guid: 3e030fbab43378f40abafc44dadaa9ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6104593020715307549
+    second: sharpened_lives_logo_0
+  - first:
+      213: 6725781335322881664
+    second: sharpened_lives_logo_1
+  - first:
+      213: 503464016757969353
+    second: sharpened_lives_logo_2
+  - first:
+      213: 1253793950325588797
+    second: sharpened_lives_logo_3
+  - first:
+      213: 6808178510212210090
+    second: sharpened_lives_logo_4
+  - first:
+      213: -4497022903678999478
+    second: sharpened_lives_logo_5
+  - first:
+      213: -907386308076708747
+    second: sharpened_lives_logo_6
+  - first:
+      213: 9191505965487779539
+    second: sharpened_lives_logo_7
+  - first:
+      213: 4134230153738566466
+    second: sharpened_lives_logo_8
+  - first:
+      213: -5399768386014442400
+    second: sharpened_lives_logo_9
+  - first:
+      213: 2688797889756727117
+    second: sharpened_lives_logo_10
+  - first:
+      213: 1724983555494895666
+    second: sharpened_lives_logo_11
+  - first:
+      213: 4934917077124740640
+    second: sharpened_lives_logo_12
+  - first:
+      213: -3074078505048929574
+    second: sharpened_lives_logo_13
+  - first:
+      213: 2898252848301855530
+    second: sharpened_lives_logo_14
+  - first:
+      213: 5661112426968558036
+    second: sharpened_lives_logo_15
+  - first:
+      213: 1497484966455645426
+    second: sharpened_lives_logo_16
+  - first:
+      213: 4532228676269209249
+    second: sharpened_lives_logo_17
+  - first:
+      213: -5034564220047717470
+    second: sharpened_lives_logo_18
+  - first:
+      213: -3775865238331824914
+    second: sharpened_lives_logo_19
+  - first:
+      213: 8100093251119042985
+    second: sharpened_lives_logo_20
+  - first:
+      213: -6731068980941100392
+    second: sharpened_lives_logo_21
+  - first:
+      213: 933820832852831551
+    second: sharpened_lives_logo_22
+  - first:
+      213: 3963849536636443729
+    second: sharpened_lives_logo_23
+  - first:
+      213: -5646784397538390212
+    second: sharpened_lives_logo_24
+  - first:
+      213: -4262299391902132365
+    second: sharpened_lives_logo_25
+  - first:
+      213: 1200561801436325597
+    second: sharpened_lives_logo_26
+  - first:
+      213: 5381682309048687111
+    second: sharpened_lives_logo_27
+  - first:
+      213: -3703561650088325192
+    second: sharpened_lives_logo_28
+  - first:
+      213: -3853972744757566404
+    second: sharpened_lives_logo_29
+  - first:
+      213: -3590645629025436736
+    second: sharpened_lives_logo_30
+  - first:
+      213: 3670370030253855349
+    second: sharpened_lives_logo_31
+  - first:
+      213: 4263686190494940947
+    second: sharpened_lives_logo_32
+  - first:
+      213: -5246049450637035301
+    second: sharpened_lives_logo_33
+  - first:
+      213: 233658920272193363
+    second: sharpened_lives_logo_34
+  - first:
+      213: -145260058332344292
+    second: sharpened_lives_logo_35
+  - first:
+      213: 1970037253378612613
+    second: sharpened_lives_logo_36
+  - first:
+      213: -673980460163727382
+    second: sharpened_lives_logo_37
+  - first:
+      213: -3757989256403865300
+    second: sharpened_lives_logo_38
+  - first:
+      213: 7361480488206882287
+    second: sharpened_lives_logo_39
+  - first:
+      213: 914959454882016692
+    second: sharpened_lives_logo_40
+  - first:
+      213: 5964449256956635509
+    second: sharpened_lives_logo_41
+  - first:
+      213: -5900574784019414652
+    second: sharpened_lives_logo_42
+  - first:
+      213: 421679252971515085
+    second: sharpened_lives_logo_43
+  - first:
+      213: 6568453158235117306
+    second: sharpened_lives_logo_44
+  - first:
+      213: -707884790436290212
+    second: sharpened_lives_logo_45
+  - first:
+      213: 4478478529249763405
+    second: sharpened_lives_logo_46
+  - first:
+      213: 3047458100257574496
+    second: sharpened_lives_logo_47
+  - first:
+      213: 5642585729602734948
+    second: sharpened_lives_logo_48
+  - first:
+      213: 2899747069017674877
+    second: sharpened_lives_logo_49
+  - first:
+      213: 7891113078960757584
+    second: sharpened_lives_logo_50
+  - first:
+      213: -3006295170879317574
+    second: sharpened_lives_logo_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sharpened_lives_logo_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed6fedbdf0284ba0800000000000000
+      internalID: -6104593020715307549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 348
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e6fd06d76c65d50800000000000000
+      internalID: 6725781335322881664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 349
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1dc041bd9acf600800000000000000
+      internalID: 503464016757969353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c0b674fe566110800000000000000
+      internalID: 1253793950325588797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_4
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad95a4a8428b7e50800000000000000
+      internalID: 6808178510212210090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 260
+        width: 419
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ea6fce7d5791c0800000000000000
+      internalID: -4497022903678999478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd809d5f05863f0800000000000000
+      internalID: -907386308076708747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 276
+        width: 250
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de68c71af9ce8f70800000000000000
+      internalID: 9191505965487779539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 340
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bbb45bb6cbf5930800000000000000
+      internalID: 4134230153738566466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 260
+        width: 346
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c893a134b2015b0800000000000000
+      internalID: -5399768386014442400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4705c35f67805520800000000000000
+      internalID: 2688797889756727117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 361
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230e9a4876f50f710800000000000000
+      internalID: 1724983555494895666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_12
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 284
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02677027fe85c7440800000000000000
+      internalID: 4934917077124740640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada05e603eda655d0800000000000000
+      internalID: -3074078505048929574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 276
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23db442c99a83820800000000000000
+      internalID: 2898252848301855530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_15
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 132
+        width: 98
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9a20b22cf409e40800000000000000
+      internalID: 5661112426968558036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_16
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 132
+        width: 67
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4931a94a228c410800000000000000
+      internalID: 1497484966455645426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a67dd1e7f5b5ee30800000000000000
+      internalID: 4532228676269209249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 252
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab0a212482a12ab0800000000000000
+      internalID: -5034564220047717470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 244
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46c75329e699bc0800000000000000
+      internalID: -3775865238331824914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_20
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 244
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a15d7055ef496070800000000000000
+      internalID: 8100093251119042985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_21
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 220
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89aea50bc607692a0800000000000000
+      internalID: -6731068980941100392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 212
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d6d02991995fc00800000000000000
+      internalID: 933820832852831551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_23
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 92
+        width: 154
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cdf46f62c620730800000000000000
+      internalID: 3963849536636443729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_24
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 132
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f8185228792a1b0800000000000000
+      internalID: -5646784397538390212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_25
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 132
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775f43294549d4c0800000000000000
+      internalID: -4262299391902132365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 220
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6e389f89049a010800000000000000
+      internalID: 1200561801436325597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_27
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 132
+        width: 202
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ad9d4fb839faa40800000000000000
+      internalID: 5381682309048687111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 212
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfc9b23d4e4a9cc0800000000000000
+      internalID: -3703561650088325192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_29
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 148
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3420b63530f38ac0800000000000000
+      internalID: -3853972744757566404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_30
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 132
+        width: 34
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb31af03d67b2ec0800000000000000
+      internalID: -3590645629025436736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_31
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57255879816cfe230800000000000000
+      internalID: 3670370030253855349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_32
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 115
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f70321008ab2b30800000000000000
+      internalID: 4263686190494940947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 99
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd875a4c1d94237b0800000000000000
+      internalID: -5246049450637035301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_34
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357ec6dcc8f1e3300800000000000000
+      internalID: 233658920272193363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 100
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c105c0f1fbeebfdf0800000000000000
+      internalID: -145260058332344292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 100
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d1be9b17af65b10800000000000000
+      internalID: 1970037253378612613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_37
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 100
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeff266a75a85a6f0800000000000000
+      internalID: -673980460163727382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_38
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 84
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2130569ea0f8dbc0800000000000000
+      internalID: -3757989256403865300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_39
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 104
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe55a80508b392660800000000000000
+      internalID: 7361480488206882287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 84
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda02cc6c692bc00800000000000000
+      internalID: 914959454882016692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_41
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 4
+        width: 796
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5792eb98ffaf5c250800000000000000
+      internalID: 5964449256956635509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 92
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48145eb1f72fc1ea0800000000000000
+      internalID: -5900574784019414652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_43
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 92
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcce482eb0b1ad500800000000000000
+      internalID: 421679252971515085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69564a855d72b50800000000000000
+      internalID: 6568453158235117306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 60
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51a42c98861d26f0800000000000000
+      internalID: -707884790436290212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_46
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 68
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40652e8e70c62e30800000000000000
+      internalID: 4478478529249763405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 60
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e4dbdfefeba4a20800000000000000
+      internalID: 3047458100257574496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_48
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 60
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bc8ab43dd7e4e40800000000000000
+      internalID: 5642585729602734948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_49
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 36
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7457438898fd3820800000000000000
+      internalID: 2899747069017674877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_50
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b15e1598dd28d60800000000000000
+      internalID: 7891113078960757584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sharpened_lives_logo_51
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab914c9587e7746d0800000000000000
+      internalID: -3006295170879317574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sharpened_lives_logo_0: -6104593020715307549
+      sharpened_lives_logo_1: 6725781335322881664
+      sharpened_lives_logo_10: 2688797889756727117
+      sharpened_lives_logo_11: 1724983555494895666
+      sharpened_lives_logo_12: 4934917077124740640
+      sharpened_lives_logo_13: -3074078505048929574
+      sharpened_lives_logo_14: 2898252848301855530
+      sharpened_lives_logo_15: 5661112426968558036
+      sharpened_lives_logo_16: 1497484966455645426
+      sharpened_lives_logo_17: 4532228676269209249
+      sharpened_lives_logo_18: -5034564220047717470
+      sharpened_lives_logo_19: -3775865238331824914
+      sharpened_lives_logo_2: 503464016757969353
+      sharpened_lives_logo_20: 8100093251119042985
+      sharpened_lives_logo_21: -6731068980941100392
+      sharpened_lives_logo_22: 933820832852831551
+      sharpened_lives_logo_23: 3963849536636443729
+      sharpened_lives_logo_24: -5646784397538390212
+      sharpened_lives_logo_25: -4262299391902132365
+      sharpened_lives_logo_26: 1200561801436325597
+      sharpened_lives_logo_27: 5381682309048687111
+      sharpened_lives_logo_28: -3703561650088325192
+      sharpened_lives_logo_29: -3853972744757566404
+      sharpened_lives_logo_3: 1253793950325588797
+      sharpened_lives_logo_30: -3590645629025436736
+      sharpened_lives_logo_31: 3670370030253855349
+      sharpened_lives_logo_32: 4263686190494940947
+      sharpened_lives_logo_33: -5246049450637035301
+      sharpened_lives_logo_34: 233658920272193363
+      sharpened_lives_logo_35: -145260058332344292
+      sharpened_lives_logo_36: 1970037253378612613
+      sharpened_lives_logo_37: -673980460163727382
+      sharpened_lives_logo_38: -3757989256403865300
+      sharpened_lives_logo_39: 7361480488206882287
+      sharpened_lives_logo_4: 6808178510212210090
+      sharpened_lives_logo_40: 914959454882016692
+      sharpened_lives_logo_41: 5964449256956635509
+      sharpened_lives_logo_42: -5900574784019414652
+      sharpened_lives_logo_43: 421679252971515085
+      sharpened_lives_logo_44: 6568453158235117306
+      sharpened_lives_logo_45: -707884790436290212
+      sharpened_lives_logo_46: 4478478529249763405
+      sharpened_lives_logo_47: 3047458100257574496
+      sharpened_lives_logo_48: 5642585729602734948
+      sharpened_lives_logo_49: 2899747069017674877
+      sharpened_lives_logo_5: -4497022903678999478
+      sharpened_lives_logo_50: 7891113078960757584
+      sharpened_lives_logo_51: -3006295170879317574
+      sharpened_lives_logo_6: -907386308076708747
+      sharpened_lives_logo_7: 9191505965487779539
+      sharpened_lives_logo_8: 4134230153738566466
+      sharpened_lives_logo_9: -5399768386014442400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
