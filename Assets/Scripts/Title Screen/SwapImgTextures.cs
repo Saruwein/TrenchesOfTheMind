@@ -1,7 +1,7 @@
 using UnityEngine.UI;
 using UnityEngine;
 
-public class SwapImg : MonoBehaviour
+public class SwapImgTexture : MonoBehaviour
 {
     public Image image;
 
@@ -28,8 +28,8 @@ public class SwapImg : MonoBehaviour
     /// swap image onclick
     /// should perform when web app accessed remotely
     /// </summary>
-    public void OnMouseDown()
+    public void OnClick()
     {
-        image.sprite = image.sprite == replacement ? defaultText : replacement; 
+        image.sprite = (image.sprite == replacement) ? defaultText : replacement; 
     }   
 }
