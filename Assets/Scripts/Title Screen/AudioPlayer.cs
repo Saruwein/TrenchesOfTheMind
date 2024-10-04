@@ -25,7 +25,7 @@ public class AudioPlayer : MonoBehaviour
         // handle song changes
         StartCoroutine(CheckPlayer());
         // handle audio animations
-        StartCoroutine(AudioAnimations());
+        AudioAnimations(true);
     }
 
     /// <summary>
@@ -53,6 +53,16 @@ public class AudioPlayer : MonoBehaviour
                 PlaySong();
             }
         }
+    }
+
+    /// <summary>
+    /// set AudioAnimations true/ false
+    /// </summary>
+    /// <param name="t"></param>
+    public void AudioAnimations(bool t)
+    {
+        StopCoroutine(AudioAnimations());
+        if (t) { StartCoroutine(AudioAnimations()); }
     }
 
     /// <summary>

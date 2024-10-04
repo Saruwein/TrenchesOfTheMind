@@ -1,6 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEngine;
 
 public static class Collection
 {
@@ -33,7 +31,7 @@ public static class Collection
     /// </summary>
     public static bool collect_Money = false;
 
-    private static List<bool> _collection = new List<bool> 
+    public static List<bool> collection = new List<bool> 
     { 
         false,  // dummy
         collect_Jigsaw, 
@@ -52,7 +50,7 @@ public static class Collection
     /// <returns></returns>
     public static bool Check(int i)
     {
-        return _collection[i];
+        return collection[i];
     }
 
 }

@@ -1,48 +1,46 @@
 using UnityEngine.UI;
 using UnityEngine;
-using Unity.Mathematics;
 
-public class VignetteAnchor : MonoBehaviour
+public class Vignette : MonoBehaviour
 {
-    public GameObject vignette;
-    private RectTransform _transform;
+    public GameObject mask;
+    public RectTransform anchor;
     private Material _vignette;
 
     private void Awake()
     {
-        _transform = GetComponent<RectTransform>();
-        _vignette = vignette.GetComponent<Image>().material;
+        _vignette = mask.GetComponent<Image>().material;
 
-        vignette.gameObject.SetActive(true);
+        mask.gameObject.SetActive(true);
         if (_vignette is null) { Debug.Log("vignette 404"); }
 
         // Pass screen resolution to the shader
-        _vignette.SetVector("_ScreenResolution", new Vector2(_transform.rect.width, _transform.rect.height));
-        VignetteSmooth(300);
+        _vignette.SetVector("_ScreenResolution", new Vector2(anchor.rect.width, anchor.rect.height));
+        Smooth(300);
     }
 
     /// <summary>
     /// very smooth gradient where min = 10% * max
     /// </summary>
-    /// <param name="max"></param>
-    public void VignetteSmooth(float max) => Vignette(max * .10f ,max);
+    /// <param name="max">vignette size</param>
+    public void Smooth(float max) => VignetteRadii(max * .10f ,max);
     /// <summary>
     /// slim gradient where min = 50% * max
     /// </summary>
-    /// <param name="max"></param>
-    public void VignetteAverage(float max) => Vignette(max * .5f, max);
+    /// <param name="max">vignette size</param>
+    public void Average(float max) => VignetteRadii(max * .5f, max);
     /// <summary>
     /// hard gradient where min = 85% * max
     /// </summary>
-    /// <param name="max"></param>
-    public void VignetteNette(float max) => Vignette(max * .85f, max);
+    /// <param name="max">vignette size</param>
+    public void Nette(float max) => VignetteRadii(max * .85f, max);
 
     /// <summary>
     /// set vignette size
     /// </summary>
     /// <param name="min"></param>
     /// <param name="max"></param>
-    public void Vignette(float min, float max)
+    public void VignetteRadii(float min, float max)
     {
         _vignette.SetFloat("_MinRadius", min);
         _vignette.SetFloat("_MaxRadius", max);
