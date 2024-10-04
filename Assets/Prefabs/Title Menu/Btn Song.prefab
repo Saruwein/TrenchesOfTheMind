@@ -129,6 +129,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioPlayer: {fileID: 0}
+  _image: {fileID: 832113522211843594}
+  _tmp: {fileID: 3762203331046487222}
   lockSprite: {fileID: -7670485267309540912, guid: d80f53871335586489396b9c7ac41588, type: 3}
   playSprite: {fileID: 3794550611322748858, guid: 3ad9220469d92264489f02b806f39f9d, type: 3}
   regular: {fileID: 11400000, guid: 571cd1da7752f3c4ea7bd2bf40319676, type: 2}

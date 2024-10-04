@@ -1,15 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SongButton : MonoBehaviour
 {
     [SerializeField]
-    AudioSource _audioPlayer;
+    private AudioSource _audioSource;
+    private AudioPlayer _audioPlayer;
     [Space]
+    [SerializeField]
+    private Image _image;
+    [SerializeField]
+    private TextMeshProUGUI _tmp;
     public Sprite lockSprite;
     public Sprite playSprite;
     public TMP_FontAsset regular;
@@ -20,9 +22,6 @@ public class SongButton : MonoBehaviour
     [SerializeField]
     private AudioClip _track;
 
-    private Image _image;
-    private TextMeshPro _tmp;
-
     private Color _white60 = new Color(1f, 1f, 1f, .6f);
     private Color _white85 = new Color(1f, 1f, 1f, .85f);
 
@@ -30,21 +29,16 @@ public class SongButton : MonoBehaviour
 
     private void Start() 
     {
-        _audioPlayer.clip = _track;
-        _image = GetComponentInChildren<Image>();
-        _tmp = GetComponentInChildren<TextMeshPro>();
-        
-        if (_debug) { Debug.Log($"we found image ({_image != null}) and TextField({_tmp != null})"); }
-        
+        _audioPlayer = _audioSource.GetComponent<AudioPlayer>();
+
         _tmp.color = _white60;
         _image.color = _white60;
     }
 
     private void OnEnable()
     {
-        if (_debug) { Debug.Log($"Checking track N°{_trackNum} returned {Collection.Check(_trackNum)}"); }
-        
-        if (Collection.Check(_trackNum))
+        // if (_debug) { Debug.Log($"Checking track N°{_trackNum} returned {Check()}"); }
+        if (Check())
         {            
             // set colours
             _image.sprite = playSprite;
@@ -52,8 +46,20 @@ public class SongButton : MonoBehaviour
             _tmp.color = _white85;
             _image.color = _white85;
         }
-        else { _image.sprite = playSprite; }
+        else 
+        { 
+            _image.sprite = lockSprite;
+            _tmp.font = regular;
+            _tmp.color = _white60;
+            _image.color = _white60;
+        }
     }
+
+    /// <summary>
+    /// check if track is unlocked in Collection
+    /// </summary>
+    /// <returns></returns>
+    private bool Check() => Collection.Check(_trackNum);
 
     /// <summary>
     /// 
@@ -63,20 +69,21 @@ public class SongButton : MonoBehaviour
         // check if Item has been aquired
         if (Collection.Check(_trackNum)) 
         {
-            _audioPlayer.clip = _track;                    
-            _audioPlayer.Play();
-            _audioPlayer.GetComponent<AudioPlayer>().AudioAnimations(false);
+            _audioSource.clip = _track;                    
+            _audioSource.Play();
 
-            if (_debug) { Debug.Log($"Now playing: {_track.name}"); }
+            _audioPlayer.AudioAnimations(false);
+            _audioPlayer.OnLoopEnd += OnSongOver;
+
+            if (_debug) { Debug.Log($"Now playing: {_trackNum} : {_track.name}"); }
             
             // UI
             _tmp.font = bold;
             _tmp.color = Color.white;
             _image.color = Color.white;
-            // await end
-            StartCoroutine(WaitForSongEnd());
-        }
+        }    
     }
+     
 
     /// <summary>
     /// restart background music
@@ -84,28 +91,12 @@ public class SongButton : MonoBehaviour
     public void OnSongOver()
     {
         if (_debug) { Debug.Log("Sample End"); }
-        _audioPlayer.GetComponent<AudioPlayer>().AudioAnimations(true);
+        _audioPlayer.OnLoopEnd -= OnSongOver;
 
-        // reset colours
+        // UI
         _tmp.font = regular;
         _tmp.color = _white85;
         _image.color = _white85;
-    }    
-
-    /// <summary>
-    /// Couroutine awaits end of song, checks every .5s
-    /// </summary>
-    /// <returns></returns>
-    private IEnumerator WaitForSongEnd()
-    {
-        if (_debug) { Debug.Log("Awaiting Sample End"); }        
-        
-        while (_audioPlayer.isPlaying)
-        {
-            yield return new WaitForSeconds(0.5f); // Wait for 500ms
-        }
-
-        OnSongOver();
     }
 
 }

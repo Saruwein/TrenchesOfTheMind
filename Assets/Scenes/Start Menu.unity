@@ -226,6 +226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -236,6 +240,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -355,9 +363,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VignetteAnchor, Assembly-CSharp
-        m_MethodName: VignetteSmooth
+      - m_Target: {fileID: 916740105}
+        m_TargetAssemblyTypeName: Vignette, Assembly-CSharp
+        m_MethodName: Smooth
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -600,7 +608,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &224593098
 Transform:
   m_ObjectHideFlags: 0
@@ -725,9 +733,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VignetteAnchor, Assembly-CSharp
-        m_MethodName: VignetteAverage
+      - m_Target: {fileID: 916740105}
+        m_TargetAssemblyTypeName: Vignette, Assembly-CSharp
+        m_MethodName: Smooth
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -928,6 +936,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -938,6 +950,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -1325,14 +1341,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Trenches Of The Mind \nSt//tches...Project Management/ Actor\nMichael
-    Lurz............Creative Director\nVincent Francois................Developer\n\nSharpened
-    Lives \nSt//tches.............Vocals/ Lead Guitar/ \n...................................Sound
-    Design\nFreddy M................................Drums\nNiklas W................Bass/
-    Keys/Vocals\n\nPhil...................................Produzent"
+  m_text: "Trenches Of The Mind \nSt//tches..........Project Management/ Actor\nMichael
+    Lurz...............Creative Director\nVincent Francois.............Unity Developer\n\nSharpened
+    Lives \nSt//tches.......Vocals/ Guitar/ Sound Design\nFreddy M...............................Drums\nNiklas
+    W...................Bass/ Keys/Vocals\n\nPhil................................Producer"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3b69581dcc27ccb449c4c00fc327ad15, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 571cd1da7752f3c4ea7bd2bf40319676, type: 2}
+  m_sharedMaterial: {fileID: 870409432876077230, guid: 571cd1da7752f3c4ea7bd2bf40319676, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1356,8 +1371,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1397,7 +1412,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &831664999
@@ -1413,6 +1428,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6650576073316279035, guid: 67e772e627bc4634c8d3879cf09476f1, type: 3}
   m_PrefabInstance: {fileID: 1956111303322393219}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &916740105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3233718418286907788, guid: 67e772e627bc4634c8d3879cf09476f1, type: 3}
+  m_PrefabInstance: {fileID: 1956111303322393219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 321e30d6e2c4bcc49a1e7bfd5c4db8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &947944820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1793,9 +1819,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VignetteAnchor, Assembly-CSharp
-        m_MethodName: VignetteSmooth
+      - m_Target: {fileID: 916740105}
+        m_TargetAssemblyTypeName: Vignette, Assembly-CSharp
+        m_MethodName: Smooth
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1858,7 +1884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1116641586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1891,10 +1917,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203872258}
+  - component: {fileID: 1203872259}
   - component: {fileID: 1203872262}
   - component: {fileID: 1203872261}
   - component: {fileID: 1203872260}
-  - component: {fileID: 1203872259}
   m_Layer: 5
   m_Name: Btn DebugStatic
   m_TagString: Untagged
@@ -2136,6 +2162,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -2146,6 +2176,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -2324,8 +2358,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.13, y: -36.13968}
-  m_SizeDelta: {x: 350, y: 250}
+  m_AnchoredPosition: {x: -50, y: -50}
+  m_SizeDelta: {x: 420, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1393301265
 GameObject:
@@ -2387,7 +2421,7 @@ MonoBehaviour:
   m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b69581dcc27ccb449c4c00fc327ad15, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -8919532932269441065, guid: 3b69581dcc27ccb449c4c00fc327ad15, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2571,6 +2605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -2581,6 +2619,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -2739,6 +2781,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -2749,6 +2795,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -3216,6 +3266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -3226,6 +3280,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []
@@ -3588,9 +3646,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: VignetteAnchor, Assembly-CSharp
-        m_MethodName: VignetteSmooth
+      - m_Target: {fileID: 916740105}
+        m_TargetAssemblyTypeName: Vignette, Assembly-CSharp
+        m_MethodName: Smooth
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3783,7 +3841,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900086313}
-  - component: {fileID: 1900086314}
   - component: {fileID: 1900086315}
   - component: {fileID: 1900086312}
   m_Layer: 0
@@ -3808,7 +3865,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 0.65
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3905,18 +3962,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1900086314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900086311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 739271e6e44623943b8a0e62d0548d25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1900086315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3935,7 +3980,7 @@ MonoBehaviour:
   panSpeed: 0.3
   panAmount: 0.75
   avReverb: 0.9
-  maxVolume: 0.75
+  maxVolume: 0.7
 --- !u!1 &1937220723
 GameObject:
   m_ObjectHideFlags: 0
@@ -4644,6 +4689,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6198513568300099202, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: m_FillCenter
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _track
       value: 
@@ -4654,6 +4703,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
       propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1900086312}
+    - target: {fileID: 8924931266310287931, guid: b934015e9f13b644386be425cc2a738b, type: 3}
+      propertyPath: _audioSource
       value: 
       objectReference: {fileID: 1900086312}
     m_RemovedComponents: []

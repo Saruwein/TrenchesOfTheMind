@@ -42,11 +42,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _MaxRadius: 300
-    - _MinRadius: 30
+    - _MaxRadius: 800
+    - _MinRadius: 80
     - _ZWrite: 0
     m_Colors:
-    - _Center: {r: -0.17617022, g: 0.3435484, b: 0, a: 0}
+    - _Center: {r: 0.5455319, g: 1.1460674, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _VignetteColor: {r: 0, g: 0, b: 0, a: 1}
