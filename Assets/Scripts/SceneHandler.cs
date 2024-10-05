@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +17,7 @@ public class SceneHandler : MonoBehaviour
     /// <summary>
     /// return to title screen
     /// </summary>
-    public static void ReturnTitle() => SceneManager.LoadScene("Start Menu");
+    public static void ReturnTitle() => SceneManager.LoadScene("TitleScreen");
 
     /// <summary>
     /// Quit application

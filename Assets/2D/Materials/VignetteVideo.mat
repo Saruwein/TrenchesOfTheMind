@@ -50,7 +50,7 @@ Material:
     - _MinRadius: 30
     - _ZWrite: 0
     m_Colors:
-    - _Center: {r: 0.5531915, g: 1.1179488, b: 0, a: 0}
+    - _Center: {r: 0.5489362, g: 1.097436, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _ScreenResolution: {r: 1175, g: 620, b: 0, a: 0}
