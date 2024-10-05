@@ -5,7 +5,11 @@ public class Vignette : MonoBehaviour
 {
     public GameObject mask;
     public RectTransform anchor;
+    public bool hasVideo = false;
+    public RenderTexture rtext;
+
     private Material _vignette;
+    
 
     private void Awake()
     {
@@ -16,6 +20,9 @@ public class Vignette : MonoBehaviour
 
         // Pass screen resolution to the shader
         _vignette.SetVector("_ScreenResolution", new Vector2(anchor.rect.width, anchor.rect.height));
+        if (hasVideo) { _vignette.SetTexture("_RenderTex", rtext); }
+        
+        // initialize vignettte to size 300 with smooth gradiant
         Smooth(300);
     }
 
