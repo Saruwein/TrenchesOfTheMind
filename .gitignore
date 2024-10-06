@@ -31,6 +31,8 @@ MemoryCaptures/
 # Unity Package Cache
 Library/PackageCache/
 Library/ArtifactDB/
+/Library/
+
 
 # Unity Asset Store tools
 Assets/AssetStoreTools*
