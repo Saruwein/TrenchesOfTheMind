@@ -28,6 +28,10 @@
 MemoryCaptures/
 *.stacktrace
 
+# Unity Package Cache
+Library/PackageCache/
+Library/ArtifactDB/
+
 # Unity Asset Store tools
 Assets/AssetStoreTools*
 
