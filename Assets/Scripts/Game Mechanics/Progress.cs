@@ -7,7 +7,7 @@ public class Progress : MonoBehaviour
 {
     [Header("Scripts")]
     public NavManager navManager;
-    public VideoPlayer cutScenes;
+    public VideoPlayer vidPlayer;
 
     [Header("Assets")]
     [SerializeField]
@@ -18,47 +18,74 @@ public class Progress : MonoBehaviour
     [Space]
     public int view = 0;
     public int cutSceneProgress = 0;
+    private StoryPoint _sp = new StoryPoint();
 
     private bool _debug = true;
+
 
 // Video Sequences
 
     private void Start()
     {
-        cutScenes.loopPointReached += AutomatedProgressPoint;
+        PlayCut(_cutSceneMP4s[cutSceneProgress]);
     }
 
     /// <summary>
     /// Start CutScene
     /// </summary>
-    public void PlayCut()
+    public void PlayCut(VideoClip clip)
     {
-        // play cutscene
-        cutScenes.clip = _cutSceneMP4s[cutSceneProgress];
-        Debug.Log($"New CutScene: {cutScenes.clip.name}");
-        cutScenes.enabled = true;
-        cutScenes.Play();
+        // setup VideoPlayer
+        vidPlayer.clip = clip;
+        vidPlayer.loopPointReached += OnCutSceneEnd;
+        // play CutScene
+        Debug.Log($"New CutScene: {vidPlayer.clip.name}");
+        vidPlayer.enabled = true;
+        vidPlayer.Play();
 
     }
 
+    public void PlayClip(VideoClip clip, StoryPoint sp)
+    {
+        // store StoryPoint in temp variable
+        _sp = sp;
+        // setup VideoPlayer
+        vidPlayer.clip = clip;
+        vidPlayer.loopPointReached += OnVideoClipEnd;
+        // play CutScene
+        Debug.Log($"New CutScene: {vidPlayer.clip.name}");
+        vidPlayer.enabled = true;
+        vidPlayer.Play();
+    }
+
     /// <summary>
-    /// track progress, 
+    /// ends Video 
     /// </summary>
     /// <param name="vp"></param>
-    public void AutomatedProgressPoint(VideoPlayer vp)
+    public void OnCutSceneEnd(VideoPlayer vp)
+    {
+        // disable Videoplayer
+        if (_debug) { Debug.Log($"End Video {vidPlayer.clip.name}"); }
+        vidPlayer.loopPointReached -= OnCutSceneEnd;
+        vp.enabled = false;
+    }
+    /// <summary>
+    /// ends Video and triggers sp.True()
+    /// </summary>
+    /// <param name="vp"></param>
+    /// <param name="sp"></param>
+    public void OnVideoClipEnd(VideoPlayer vp)
     {
         // progress
-        _cutSceneMP4s[cutSceneProgress].GetComponent<StoryPoint>().True();
-        if (_debug) { Debug.Log($"End Video {cutScenes.clip.name}"); }
-        
-        // set up next CutScene
-        cutSceneProgress++;
+        _sp.True();
+        // disable VideoPlayer
+        vidPlayer.loopPointReached -= OnVideoClipEnd;
+        if (_debug) { Debug.Log($"End Video {vidPlayer.clip.name}"); }
         vp.enabled = false;
     }
 
 
-
-
+// Navigation
 
     /// <summary>
     /// navigate left
@@ -75,13 +102,11 @@ public class Progress : MonoBehaviour
             if (_debug && _views[i].activeSelf) { Debug.Log($"Perspecive: {_views[i]}"); }
         }    
 
-        // check for video condition 
-        // {does it have cutscenes, are prereqs met, and has it been played?}        
-        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];    
-        if ((sp.name.StartsWith('1') || sp.name.StartsWith('3')) && sp.CheckPrereqs() && !sp.isPassed)
+        // check for video condition  
+        if (IsAutoCutScene())
         {
-            PlayCut();
-                 
+            cutSceneProgress++;
+            PlayCut(_cutSceneMP4s[cutSceneProgress]);                 
         }
     }
 
@@ -101,17 +126,26 @@ public class Progress : MonoBehaviour
 
         // check for video condition 
         // {does it have cutscenes, are prereqs met, and has it been played?}
-        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];
-        if ((sp.name.StartsWith('1') || sp.name.StartsWith('3')) && sp.CheckPrereqs() && !sp.isPassed)
+        
+        if (IsAutoCutScene())
         {
-            PlayCut();
+            cutSceneProgress--;
+            PlayCut(_cutSceneMP4s[cutSceneProgress]);
         }
+    }
+
+    private bool IsAutoCutScene()
+    {
+        StoryPoint sp = _views[view].GetComponent<View>().storyPoints[0];
+        return sp.IsCutScene && sp.CheckPrereqs() && !sp.isPassed;
     }
 
     public void ZoomIn()
     {
         navManager.ZoomIn();
     }
+
+
 
 // End Sequence
 
@@ -123,11 +157,11 @@ public class Progress : MonoBehaviour
     {
         if (!Lock.isLocked())
         {
-            cutScenes.loopPointReached += null;
-            cutScenes.loopPointReached += End;
+            vidPlayer.loopPointReached += null;
+            vidPlayer.loopPointReached += End;
 
             cutSceneProgress = _cutSceneMP4s.Count - 1;
-            PlayCut();
+            PlayCut(_cutSceneMP4s[cutSceneProgress]);
         }
     }
 

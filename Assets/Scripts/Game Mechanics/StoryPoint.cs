@@ -1,6 +1,7 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class StoryPoint : MonoBehaviour
 {
@@ -10,14 +11,13 @@ public class StoryPoint : MonoBehaviour
     private bool _isCutScene = false;
     // Lis of prerequisite StoryPoints that have to be passed
     public List<StoryPoint> prereqs = new List<StoryPoint>();
-
-    // public Action individual 
+    public VideoClip clip;
 
     private bool _debug = true;
 
-    public StoryPoint(string name)
+    public StoryPoint()
     {
-        this.name = name;
+        this.name = "";
         isPassed = false;
     }
 
@@ -59,5 +59,13 @@ public class StoryPoint : MonoBehaviour
         if (!prereqMet) { Debug.Log($"Storypoint {name} is missing at least one prerequisite"); }
         return prereqMet;
     }
+
+    private void Awake()
+    {
+        Button button = GetComponent<Button>();
+
+        button?.onClick.AddListener(True);
+    }
+
 
 }
