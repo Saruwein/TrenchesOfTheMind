@@ -1,24 +1,29 @@
 using UnityEngine;
 using UnityEngine.Video;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+
 
 public class Progress : MonoBehaviour
 {
     [Header("Scripts")]
     public NavManager navManager;
     public VideoPlayer vidPlayer;
+    [Space]
 
     [Header("Assets")]
     [SerializeField]
     private List<VideoClip> _cutSceneMP4s = new List<VideoClip>();
     [SerializeField]
     List<GameObject> _views = new List<GameObject>();
-
+    
     [Space]
     public int view = 0;
     public int cutSceneProgress = 0;
     private StoryPoint _sp = new StoryPoint();
+
+    [Space]
+public List<Sprite> symbols = new List<Sprite>();
+    private int[] _symbols = new int[3];
 
     private bool _debug = true;
 
@@ -164,6 +169,43 @@ public class Progress : MonoBehaviour
             PlayCut(_cutSceneMP4s[cutSceneProgress]);
         }
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="i"></param>
+    /// <returns></returns>
+    public List<Sprite> GetLockingWheel(int i)
+    {
+        List<Sprite> wheel = new List<Sprite>(symbols);
+        for (int k = 0; k < 3; k++)
+        {
+            if (k != i) { wheel.RemoveAt(_symbols[k]); }
+        }
+        return wheel;
+    }
+
+
+    /// <summary>
+    /// draw three unique characters 
+    /// </summary>
+    private void BuildLock()
+    {
+        _symbols[0] = RandomLock();
+        do { _symbols[1] = RandomLock();  } while (_symbols[1] == _symbols[0]);
+        do { _symbols[2] = RandomLock(); } while (_symbols[2] == _symbols[0] || _symbols[2] == _symbols[1]);
+    }
+
+    /// <summary>
+    /// Draw random number fromlocks
+    /// </summary>
+    /// <returns></returns>
+    private int RandomLock()
+    {
+        double d = Random.Range(0, 1);
+        return (int) Mathf.Round((float) d * symbols.Count - 1);
+    }
+
 
     /// <summary>
     /// End Game // return to Title Screen

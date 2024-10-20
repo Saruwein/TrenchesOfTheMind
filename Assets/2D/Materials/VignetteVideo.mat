@@ -46,11 +46,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _MaxRadius: 300
-    - _MinRadius: 30
+    - _MaxRadius: 360
+    - _MinRadius: 36
     - _ZWrite: 0
     m_Colors:
-    - _Center: {r: 0.55148935, g: 1.1025641, b: 0, a: 0}
+    - _Center: {r: 0.5008944, g: 0.43316412, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _ScreenResolution: {r: 1175, g: 620, b: 0, a: 0}
