@@ -8,6 +8,7 @@ public class Progress : MonoBehaviour
     [Header("Scripts")]
     public NavManager navManager;
     public VideoPlayer vidPlayer;
+    public SceneHandler sceneHandler;
     [Space]
 
     [Header("Assets")]
@@ -167,6 +168,8 @@ public List<Sprite> symbols = new List<Sprite>();
 
             cutSceneProgress = _cutSceneMP4s.Count - 1;
             PlayCut(_cutSceneMP4s[cutSceneProgress]);
+
+            sceneHandler.ChangeScene("TitleScene");
         }
     }
 

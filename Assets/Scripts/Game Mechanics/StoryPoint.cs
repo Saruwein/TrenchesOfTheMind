@@ -9,8 +9,13 @@ public class StoryPoint : MonoBehaviour
     public bool isPassed;
     [SerializeField]
     private bool _isCutScene = false;
+    [Space]
+
     // Lis of prerequisite StoryPoints that have to be passed
     public List<StoryPoint> prereqs = new List<StoryPoint>();
+    public List<GameObject> followUpGOs = new List<GameObject>();
+
+    [Space]
     public VideoClip clip;
 
     private bool _debug = true;
@@ -41,11 +46,13 @@ public class StoryPoint : MonoBehaviour
         {
             isPassed = true;
             gameObject.SetActive(false);
+            displayFollowUpGOs(true);
             if (_debug) { Debug.Log($"Passed StoryPoint {name}"); }
         }
         
     }
 
+    // 
     public bool CheckPrereqs()
     {
         bool prereqMet = true;
@@ -60,6 +67,16 @@ public class StoryPoint : MonoBehaviour
         return prereqMet;
     }
 
+    /// <summary>
+    /// display FollowUpGOs
+    /// </summary>
+    /// <param name="toggle"></param>
+    public void displayFollowUpGOs(bool toggle)
+    {
+        foreach (GameObject obj in followUpGOs) { obj.SetActive(toggle); }
+    }
+
+    // 
     private void Awake()
     {
         Button button = GetComponent<Button>();
