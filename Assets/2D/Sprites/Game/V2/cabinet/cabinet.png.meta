@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1e4a2fc08f9e8d54091a4395572690ec
+guid: 2ed685bf2c3504b4daba7a3acce667d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4940251463841603001
-    second: closet1_0
+      213: -2788250296871982078
+    second: cabinet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: closet1_0
+      name: cabinet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 719
+        height: 574
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bdd163288c4f8440800000000000000
-      internalID: 4940251463841603001
+      spriteID: 20c6116b0252e49d0800000000000000
+      internalID: -2788250296871982078
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      closet1_0: 4940251463841603001
+      cabinet_0: -2788250296871982078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
