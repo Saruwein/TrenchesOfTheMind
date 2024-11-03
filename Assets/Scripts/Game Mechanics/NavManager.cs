@@ -26,8 +26,9 @@ public class NavManager : MonoBehaviour
         BtnBack?.gameObject.SetActive(false);
     }
 
+    /*
     public void MoveLeft() => progress.ScreenLeft();
     public void MoveRight() => progress.ScreenRight();
 
-
+    */
 }
