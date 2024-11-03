@@ -18,6 +18,8 @@ public class StoryPoint : MonoBehaviour
     [Space]
     [Tooltip("Leave Emnpty if not a CutScene")]
     public VideoClip clip;
+    [Tooltip("Leave Empty if no designated sound effect")]
+    public AudioClip SFX;
     [SerializeField]
     private Texture _rawImg;
 
@@ -41,6 +43,8 @@ public class StoryPoint : MonoBehaviour
     /// return whether or not the 
     /// </summary>
     public bool IsCutScene { get { return clip != null; } }
+
+    public bool HasSFX { get { return clip != null; } }
 
     /// <summary>
     /// flag the storyPoint as dealt with
@@ -78,6 +82,12 @@ public class StoryPoint : MonoBehaviour
             {
                 // immediately hide if no video
                 gameObject.SetActive(false);
+            }
+            if (HasSFX) 
+            { 
+                AudioSource audioSource = GetComponent<AudioSource>();
+                audioSource.clip = SFX;
+                audioSource.Play();
             }
 
             // pass StoryPoint

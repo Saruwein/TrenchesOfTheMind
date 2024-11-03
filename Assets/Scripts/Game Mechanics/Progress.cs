@@ -23,7 +23,7 @@ public class Progress : MonoBehaviour
     private StoryPoint _sp = new StoryPoint();
 
     [Space]
-public List<Sprite> symbols = new List<Sprite>();
+    public List<Sprite> symbols = new List<Sprite>();
     private int[] _symbols = new int[3];
 
     private bool _debug = true;
