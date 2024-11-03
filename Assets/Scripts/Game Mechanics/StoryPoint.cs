@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -6,7 +7,7 @@ using UnityEngine.Video;
 public class StoryPoint : MonoBehaviour
 {
     // has this storyPoint been traversed?
-    public bool isPassed;
+    public bool isPassed { get; set; }
 
     [Tooltip("Required StoryPoints to be passed")]
     public List<StoryPoint> prereqs = new List<StoryPoint>();
@@ -17,6 +18,8 @@ public class StoryPoint : MonoBehaviour
     [Space]
     [Tooltip("Leave Emnpty if not a CutScene")]
     public VideoClip clip;
+    [SerializeField]
+    private Texture _rawImg;
 
     private bool _debug = true;
 
@@ -27,6 +30,12 @@ public class StoryPoint : MonoBehaviour
 
         _view = transform.parent.GetComponentInChildren<View>();
     }
+
+    private void OnEnable()
+    {
+        if (IsCutScene) { True(); }
+    }
+
 
     /// <summary>
     /// return whether or not the 
@@ -45,10 +54,14 @@ public class StoryPoint : MonoBehaviour
             if (IsCutScene)
             {
                 // hide anything that may overlay
-                if (_debug) { Debug.Log($"SP {name} is CutScene and plays {clip}"); }
-                GetComponent<Image>().enabled = false;
+                if (_debug) { Debug.Log($"SP {name} is CutScene and plays {clip}"); }                
                 GetComponent<Button>().enabled = false;
                 _view.ToggleNavBtnVis(false);
+
+                // replace Image Texture with RawImage
+                DestroyImmediate(gameObject.GetComponent<Image>());
+                gameObject.AddComponent<RawImage>();
+                GetComponent<RawImage>().texture = _rawImg;
 
                 // play clip
                 VideoPlayer vp = GetComponent<VideoPlayer>();
@@ -59,11 +72,16 @@ public class StoryPoint : MonoBehaviour
                 // set stuff to be visible again
                 vp.loopPointReached += (_) => gameObject.SetActive(false);
                 vp.loopPointReached += (_) => _view.ToggleNavBtnVis(true);
+                vp.loopPointReached += (_) => gameObject.SetActive(false);
             }
-            
+            else
+            {
+                // immediately hide if no video
+                gameObject.SetActive(false);
+            }
+
             // pass StoryPoint
             isPassed = true;
-            gameObject.SetActive(false);
 
             // handle followUp StoryPoints
             if (followUpGOs.Count > 0) 
@@ -72,7 +90,7 @@ public class StoryPoint : MonoBehaviour
                 displayFollowUpGOs(true);
 
                 // enable back button, set it up to disable SPs and disappear
-                Button back = _view.NavManager.BtnBack;
+                Button back = _view?.NavManager.BtnBack;
                 back.onClick.RemoveAllListeners();
                 back.onClick.AddListener(() => displayFollowUpGOs(false));
                 back.onClick.AddListener(() => back.gameObject.SetActive(false));

@@ -1,4 +1,3 @@
-using JetBrains.Annotations;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -28,8 +27,8 @@ public class View : MonoBehaviour
             // set Button Active and replace Listeners with View switch
             btn.gameObject.SetActive(true);
             btn.onClick.RemoveAllListeners();
-            btn.onClick.AddListener(() => view.gameObject.SetActive(true));
-            btn.onClick.AddListener(() => gameObject.SetActive(false));
+            btn.onClick.AddListener(() => view.transform.parent.gameObject.SetActive(true));
+            btn.onClick.AddListener(() => transform.parent.gameObject.SetActive(false));
         }
         
     }
