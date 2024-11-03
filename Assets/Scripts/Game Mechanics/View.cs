@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class View : MonoBehaviour
 {
 
-    public List<StoryPoint> Level0 = new List<StoryPoint>();
+    public List<GameObject> Level0 = new List<GameObject>();
 
     public View Left;
     public View Right;
@@ -15,7 +15,7 @@ public class View : MonoBehaviour
 
     private void OnEnable()
     {
-        foreach (StoryPoint p in Level0) { gameObject.SetActive(true); }
+        foreach (GameObject p in Level0) { gameObject.SetActive(true); }
         
         for (int i = 0; i < 2; i++)
         {
