@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      faucet2_0: -8972945720071505895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

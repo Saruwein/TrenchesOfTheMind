@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mirrorhub3_0: 914804741539729746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

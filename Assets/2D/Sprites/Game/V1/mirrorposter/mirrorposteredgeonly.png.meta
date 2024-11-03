@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mirrorposteredgeonly_0: -1590293454911536679
+      mirrorposteredgeonly_1: 8403114682952057998
+      mirrorposteredgeonly_2: -1006678392315267671
+      mirrorposteredgeonly_3: 1665727228248208276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shelfdrawer2_0: -8175612961238113144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

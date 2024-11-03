@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      towelrack_0: 9082923978449724295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
