@@ -12,7 +12,7 @@ public class StoryPoint : MonoBehaviour
     public List<StoryPoint> prereqs = new List<StoryPoint>();
     [Tooltip("GameObjects of which the visibility is depending on this to be passed")]
     public List<GameObject> followUpGOs = new List<GameObject>();
-    private View _view = null;
+    private View _view;
 
     [Space]
     [Tooltip("Leave Emnpty if not a CutScene")]
