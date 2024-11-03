@@ -16,6 +16,8 @@
 # Unity-specific ignores
 ################################################################################
 
+# Ignore the following Unity auto-generated files and directories:
+
 # Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
@@ -26,9 +28,11 @@
 MemoryCaptures/
 *.stacktrace
 
-# Unity Package Cache and Artifacts
+# Unity Package Cache
 Library/PackageCache/
 Library/ArtifactDB/
+/Library/
+
 
 # Unity Asset Store tools
 Assets/AssetStoreTools*
@@ -53,5 +57,9 @@ Assets/AssetStoreTools*
 .DS_Store
 Thumbs.db
 
-# User Settings
+# Packages
+Packages/manifest.json
+Packages/
+
+#User Settings
 UserSettings/

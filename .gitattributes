@@ -1,1 +1,28 @@
+# Handle all files automatically based on platform (text or binary)
 * text=auto
+
+# Force text files
+*.txt text
+*.md text
+*.html text
+*.css text
+*.js text
+*.py text
+*.java text
+*.c text
+*.cpp text
+*.sh text
+*.json text
+
+# Treat binary files
+*.mp3 -text
+*.wav -text
+*.png -text
+*.jpg -text
+*.gif -text
+*.mp4 -text
+*.exe -text
+*.dll -text
+*.zip -text
+*.rar -text
+*.fbx -text
