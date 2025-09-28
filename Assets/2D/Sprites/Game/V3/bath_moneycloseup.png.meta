@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bath_moneycloseup_0: -5755399593890608926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

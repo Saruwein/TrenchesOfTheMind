@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mirrorpostercloseunfolded_0: -8292133789885496651
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -198,7 +198,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eyelocksmall_0: -9209311216026150317
+      eyelocksmall_1: 674249869573773105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

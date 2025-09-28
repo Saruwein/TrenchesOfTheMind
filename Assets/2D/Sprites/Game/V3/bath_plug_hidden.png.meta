@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bath_plug_hidden_0: 762368161080880185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

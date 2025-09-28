@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bath_hand_0: -8272841986045019293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
